@@ -1,5 +1,7 @@
 # Flexible URL
 
+[![tests](https://github.com/snoe-labs/flexible-url/actions/workflows/tests.yml/badge.svg)](https://github.com/snoe-labs/flexible-url/actions/workflows/tests.yml)
+
 A Laravel validation rule that accepts URLs with or without a scheme. When the scheme is missing, it normalizes the value to `https://` automatically.
 
 Users type `google.com`, not `https://google.com`. This rule handles that gracefully.
@@ -58,8 +60,8 @@ The callback is only invoked when normalization actually occurs (i.e. a scheme w
 
 ## Requirements
 
-- PHP 8.2+
-- Laravel 11 or 12
+- PHP 8.2+ (8.3+ for Laravel 13)
+- Laravel 12 or 13
 
 ## License
 
